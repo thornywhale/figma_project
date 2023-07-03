@@ -18,6 +18,12 @@ h1,h2,h3,h4{
 a{
   color: inherit;
 }
+.wrapper{
+  min-width: 327px;
+  width: 87%;
+  max-width: 1100px;
+  margin: auto;
+}
 @media screen and (min-width: 768px){
   :root{
     font-size: 24px;

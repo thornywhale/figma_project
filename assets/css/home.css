@@ -1,9 +1,71 @@
 .home{
-  
+  padding: 2rem 7.3%;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #fbed96, #abecd6);
+  text-align: center;
 }
-.home__img{}
-.home__content{}
-.home__title{}
-.home__btn{}
-.home__btn-gruop{}
-.home__link{}
+.home__img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: var(--white-bg);
+  background-image: url(./../images/boy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home__content{
+  margin-top: 25px;
+}
+.home__title{
+  margin-top: 8px;
+  font-size: 2rem;
+  line-height: 2em;
+}
+.home__accent{
+  background-image: linear-gradient(to right, #40c4ff, #189fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home__aceent-line{
+  background-image: url(./../images/vector.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+.home__btn-gruop{
+  margin-top: 42px;
+  font-size: 14px;
+}
+.home__btn{
+  width: 130px;
+  height: 37px;
+  margin-right: 16px;
+  border: none;
+  border-radius: 32px;
+  background-color: var(--black-bg);
+  color: white;
+}
+.home__link{
+  padding-right: 1.5rem;
+  background-image: url(./../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: center right;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home{
+    border-radius: 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+ .home{
+  border-radius: 44px;
+ } 
+ .home__title{
+
+ }
+}
