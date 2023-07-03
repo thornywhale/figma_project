@@ -37,6 +37,7 @@
 .home__btn-gruop{
   margin-top: 42px;
   font-size: 14px;
+  font-weight: 500;
 }
 .home__btn{
   width: 130px;
@@ -66,6 +67,6 @@
   border-radius: 44px;
  } 
  .home__title{
-
+  font-size: 60px;
  }
 }
